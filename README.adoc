@@ -1,4 +1,4 @@
-= Guillaume https://www.houdmon.com[Houdmon], Architect & Devops
+= Guillaume https://houdmon.com[Houdmon], Architect & Devops
 Guillaume Houdmon <guillaume@houdmon.com>
 2022-12-02
 :description: Guillaume Houdmon's resume
@@ -49,10 +49,10 @@ After having been responsible for a digital identity project, I took over the ro
 icon:linkedin[alt=linkedin,width=32,link=https://www.linkedin.com/in/guillaume-houdmon-0395a1b/]
 icon:mail[alt=mail,width=32,link=mailto:guillaume@houdmon.com]
 ifdef::backend-pdf[]
-icon:link[alt=website,width=32,link=https://www.houdmon.com]
+icon:link[alt=website,width=32,link=https://houdmon.com]
 endif::[]
 ifndef::backend-pdf[]
-icon:download[alt=,width=32,link=https://github.com/ghoudmon/ghoudmon.github.io/blob/gh-pages/ebook.pdf]
+icon:download[alt=,width=32,link=https://github.com/ghoudmon/ghoudmon.github.io/raw/gh-pages/ebook.pdf]
 endif::[]
 
 
