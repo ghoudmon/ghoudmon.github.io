@@ -25,6 +25,7 @@ ifdef::backend-pdf[:notitle:]
 ifdef::backend-pdf[]
 [discrete]
 = {doctitle}
+endif::[]
 ifndef::backend-pdf[]
 [.photo]#icon:GuillaumeHOUDMON[GuillaumeHOUDMON]#
 endif::[]

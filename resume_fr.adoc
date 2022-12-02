@@ -5,7 +5,10 @@ Guillaume Houdmon <guillaume@houdmon.com>
 :keywords: devops, architect, resume
 :doctype: book
 :favicon: img/shield-user-line.png
-:stylesheet: css/resume.css
+:stylesheet: style/resume.css
+:pdf-theme: resume-pdf.yml
+:pdf-themesdir: style
+:pdf-fontsdir: fonts
 :icons: image
 :iconsdir: img
 :icontype: png
@@ -20,6 +23,7 @@ ifdef::backend-pdf[:notitle:]
 ifdef::backend-pdf[]
 [discrete]
 = {doctitle}
+endif::[]
 ifndef::backend-pdf[]
 [.photo]#icon:GuillaumeHOUDMON[GuillaumeHOUDMON]#
 endif::[]
