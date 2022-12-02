@@ -58,7 +58,7 @@ endif::[]
 
 == Skills
 
-[horizontal]s
+[horizontal]
 ARCHITECTURE:: Micro-services, Rest APIs, SaaS, Security
 LANGUAGES:: Java, Kotlin, Springboot, Python
 DEVOPS:: Ansible, Molecule, Jenkins, GitLab-ci
