@@ -1,0 +1,175 @@
+= Guillaume https://www.houdmon.com[Houdmon], Architect & Devops
+Guillaume Houdmon <guillaume@houdmon.com>
+2022-12-02
+:description: Guillaume Houdmon's resume
+:keywords: devops, architect, resume
+:doctype: book
+:favicon: img/shield-user-line.png
+:stylesheet: css/resume.css
+:icons: image
+:iconsdir: img
+:icontype: png
+:toc-title: Guillaume Houdmon
+:toclevels: 1
+ifndef::backend-pdf[:toc: left]
+ifndef::backend-pdf[:nofooter:]
+ifdef::backend-pdf[:notitle:]
+
+[preface]
+
+ifdef::backend-pdf[]
+[discrete]
+= {doctitle}
+ifndef::backend-pdf[]
+[.photo]#icon:GuillaumeHOUDMON[GuillaumeHOUDMON]#
+endif::[]
+[.subheading]#Rennes, France - guillaume@houdmon.com#
+ifndef::backend-pdf[]
+[.lang]#link:./index.html[EN]#
+endif::[]
+
+
+== About
+
+Je suis ingénieur en informatique avec 20 ans d'expérience dans le développement. J'ai une solide expérience en architecture micro-services, construction de solution SaaS, Kubernetes et mise au point des chaînes CI/CD.
+
+Étant intéressé depuis longtemps par la façon dont mes projets allaient être déployés et maintenus en condition opérationnelle, j'ai acquis très tôt des compétences devops. Travaillant avec des données sensibles depuis 2005, j'ai également une bonne connaissance des problèmatiques de sécurité et des défis que cela impose.
+
+Je travaille actuellement pour ARIADNEXT, éditeur de solution d'identité en mode SaaS. 
+
+Après avoir été responsable d'un projet d'identité numérique, j'ai repris le rôle d'architecte technique. À ce titre, j'ai mis en place une équipe QA et une équipe devops. Avec cette équipe devops, et en collaboration avec l'équipe infrastructure, j'ai construit une nouvelle plateforme de production as code, basée sur kubernetes.
+
+
+icon:linkedin[alt=linkedin,width=32,link=https://www.linkedin.com/in/guillaume-houdmon-0395a1b/]
+icon:mail[alt=mail,width=32,link=mailto:guillaume@houdmon.com]
+ifdef::backend-pdf[]
+icon:link[alt=website,width=32,link=https://www.houdmon.com]
+endif::[]
+ifndef::backend-pdf[]
+icon:download[alt=download,width=32,link=https://github.com/ghoudmon/ghoudmon.github.io/blob/gh-pages/ghoudmon_fr.pdf]
+endif::[]
+
+
+== Compétences
+
+[horizontal]
+ARCHITECTURE:: Micro-services, Rest APIs, SaaS, Security
+LANGUAGES:: Java, Kotlin, Springboot, Python
+DEVOPS:: Ansible, Molecule, Jenkins, GitLab-ci
+CONTAINERS & CLOUD:: Kubernetes, Istio, Docker, Linux, Grafana/Prometheus
+MIDDLEWARES:: Elasticsearch/Opensearch, MariaDB/MySQL, MongoDB, RabbitMQ , Keycloak
+
+== Éducation
+
+=== ENIB,  École Nationale d'Ingénieurs de Brest
+
+[.subheading]#Ingénieur#
+[.range]#1997 - 2002#
+
+Option informatique industrielle
+
+== Expériences
+
+=== Architect Solution / Head of Devops
+
+[.subheading]#ARIADNEXT by IDnow, Rennes, France#
+[.range]#January 2019 - Present#
+
+Responsable de 3 équipes transverses: Architecture, Devops et QA (environ 15 personnes).
+
+Devops team manager:
+
+* Recrutement d'une équipe devops
+* Build d'une plateforme Kubernetes on premise
+* Automatisation des deploiements with Ansible/Molecule
+* Mise ne place des atreintes
+* Diffusion de la culture DevSecOps
+* Amélioration de la chaîne CI/CD: Gitlab-ci, Jenkins, Sonar, Nexus, Harbor, DependencyTrack
+
+Coding Architect (jusqu'en 11/2022):
+
+* Conception des nouveaux services
+* Développement des librairies communes et services communs aux différents produits
+* Animation du communuaté de pratique Java/Kotlin
+* Participation aux audits de sécurités et des dossiers de certification
+
+QA team Manager (jusqu'en 03/2022):
+
+* Recrutement d'une équipe QA
+* Mise a point de l'environnement de test basé sur RobotFramework
+* Définuition de la stratégie des test de performances et de charges
+
+Technologies: Java/Kotlin/Springboot, Keycloak, RabbitMQ, MongoDB, MariaDB, Kubernetes, Istio, Ansible, Molecule, GitLab-ci, Jenkins, RobotFramework, Locust
+
+=== Digital identity project manager
+
+[.subheading]#ARIADNEXT, Rennes, France#
+[.range]#July 2017 - January 2019#
+
+Le produit est un fournisseur d'identité pour FranceConnect.
+Il permet aux usagers de créer leur identité numérique depuis leur smartphone, avec Mobile Connect comme moyen d'authentification et IDCHECK.IO comme moyen de vérification d'identité à distance.
+
+Technologies: Java/Springboot, Keycloak, Android/Kotlin, IOS/Swift, RabbitMQ, MongoDB, MySQL
+
+=== Tech leader, Devops and IT manage
+
+[.subheading]#BlueKanGo, Rennes, France#
+[.range]#January 2009 - July 2017#
+
+Développement d'une application SaaS de QHSE:
+
+* HTML5/JS/IndexedDB offline application sur smartphone et tablette
+* Module BI avec un backend Java/Birt et un frontend PHP/ExtJS
+* Intégration de solution d'authentification: SSO, JWT, OTP, LDAP
+* Java/Spring/GWT application pour la gestion d'équipement routier<
+* Développement d'outils internes en AngularJS/PHP
+
+IT manager:
+
+* Virtualisation des serveurs
+* Hébergement d'application clientes SaaS
+* Mise au point de la solution de monitoring
+* Gestion du système d'information interne
+* Mise au pont de la chaîne CI/CD
+
+Technologies: Java/Springboot, JS, PHP, MySQL, Jenkins, Zabbix, Birt, Selenium, Jmeter
+
+=== Product manager
+
+[.subheading]#SNR, Lille, France#
+[.range]#2007 - 2008#
+
+Développement d'une platfeorme régionale de dossiers médicaux partagés:
+
+* Leader technique et encadrement de la sous-traitance
+* Rédaction de spécifications techniques et fonctionnelles
+* Garant de la qualité du proudit
+* Support technique en avant-ventes
+
+Technologies: Java, Jonas, JSF, Oracle
+
+=== Java tech leader
+
+[.subheading]#Silicomp-AQL (OBS), Rennes, France#
+[.range]#2005 - 2006#
+
+Sous-traitant de SNR
+
+* Leader technique et Java developer
+* Rédaction de spécifications techniques et fonctionnelles
+* Garant de la qualité du proudit
+
+Technologies: Java, Jonas, JSF, Oracle
+
+=== Java developer
+
+[.subheading]#Osys, Laval, France#
+[.range]#2003 - 2005#
+
+Développement d'une application intranet pour le suivi des chaines de productions
+
+* Conception de la solution et développement Java
+* Déploiement des applications spéciques clientes
+* Formation interne et cliente au produit
+
+Technologies: Java, Tomcat, Ms SQL Server

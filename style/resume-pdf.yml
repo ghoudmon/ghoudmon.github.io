@@ -1,0 +1,55 @@
+---
+extends: default
+font:
+  catalog:
+    merge: false 
+    saira:
+      normal: SairaExtraCondensed-Regular.ttf
+      bold: SairaExtraCondensed-Bold.ttf
+base:
+  font-color: #656B71
+  font-family: Times-Roman
+  font-size: 12
+page:
+  margin: 60
+title-page:
+  text-transform: uppercase
+  mode: outline
+  title:
+    font-family: saira
+    font-color: #343a40
+    font-style: bold
+  subtitle:
+    display: none
+  authors:
+    display: none
+  revision:
+    display: none
+heading:
+  font-family: saira
+  font-color: #343a40
+  font-style: bold
+  min-height-after: auto
+  text-transform: uppercase
+  chapter:
+    break-before: auto
+  h3-margin-bottom: 0
+
+footer:
+  recto:
+    left: 
+      content: '{document-title}'
+    right:
+      content: '{page-number}'
+  verso:
+    left: 
+      content: '{document-title}'
+    right:
+      content: '{page-number}'
+role:
+  subheading:
+    font-size: 14
+    font-family: saira
+    text-transform: uppercase
+  range:
+    font-color: #0062cc

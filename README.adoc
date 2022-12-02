@@ -1,0 +1,181 @@
+= Guillaume https://www.houdmon.com[Houdmon], Architect & Devops
+Guillaume Houdmon <guillaume@houdmon.com>
+2022-12-02
+:description: Guillaume Houdmon's resume
+:keywords: devops, architect, resume
+:doctype: book
+:favicon: img/shield-user-line.png
+:stylesheet: style/resume.css
+:pdf-theme: resume-pdf.yml
+:pdf-themesdir: style
+:pdf-fontsdir: fonts
+:icons: image
+:iconsdir: img
+:icontype: png
+:toc-title: Guillaume Houdmon
+:toclevels: 1
+ifndef::backend-pdf[:toc: left]
+ifndef::backend-pdf[:nofooter:]
+ifdef::backend-pdf[:notitle:]
+
+
+[preface]
+
+
+ifdef::backend-pdf[]
+[discrete]
+= {doctitle}
+ifndef::backend-pdf[]
+[.photo]#icon:GuillaumeHOUDMON[GuillaumeHOUDMON]#
+endif::[]
+[.subheading]#Rennes, France - guillaume@houdmon.com#
+ifndef::backend-pdf[]
+[.lang]#link:./resume_fr.html[FR]#
+endif::[]
+
+
+== About
+
+I'm a software engineer with 20 years of experience in development. I've a strong experience in micro-service architecture, SaaS development, kubernetes deployment and CI/CD.
+
+Having long been interested in how my projects would be deployed and maintained in operational condition, I acquired devops skills early on, in addition to my software architecture skills. Working with sensitive data since 2005, I have also a good awareness to security problematic and challenges that this imposes.
+
+I'm working since 2017 at ARIADNEXT, software editor in SaaS of identity solutions. 
+
+After having been responsible for a digital identity project, I took over the role of tehcnical architect. As such, I set up a QA team and a devops team. With this devops team, and in collaboration with the infrastructure team, I built a new production as code platform, based on kubernetes.
+
+
+icon:linkedin[alt=linkedin,width=32,link=https://www.linkedin.com/in/guillaume-houdmon-0395a1b/]
+icon:mail[alt=mail,width=32,link=mailto:guillaume@houdmon.com]
+ifdef::backend-pdf[]
+icon:link[alt=website,width=32,link=https://www.houdmon.com]
+endif::[]
+ifndef::backend-pdf[]
+icon:download[alt=,width=32,link=https://github.com/ghoudmon/ghoudmon.github.io/blob/gh-pages/ghoudmon_en.pdf]
+endif::[]
+
+
+== Skills
+
+[horizontal]s
+ARCHITECTURE:: Micro-services, Rest APIs, SaaS, Security
+LANGUAGES:: Java, Kotlin, Springboot, Python
+DEVOPS:: Ansible, Molecule, Jenkins, GitLab-ci
+CONTAINERS & CLOUD:: Kubernetes, Istio, Docker, Linux, Grafana/Prometheus
+MIDDLEWARES:: Elasticsearch/Opensearch, MariaDB/MySQL, MongoDB, RabbitMQ , Keycloak
+
+== Education
+
+=== ENIB,  École Nationale d'Ingénieurs de Brest
+
+[.subheading]#Engineer#
+[.range]#1997 - 2002#
+
+Computer sciences option
+
+== Experiences
+
+=== Architect Solution / Head of Devops
+
+[.subheading]#ARIADNEXT by IDnow, Rennes, France#
+[.range]#January 2019 - Present#
+
+Head of cross-functional teams: Architecture, Devops and QA (about 15p).
+
+Head of Devops:
+
+* Recruit a Devops Team
+* Build an on-premise Kubernetes platform
+* Automatize deployments with Ansible/Molecule
+* Setting up the on call duty
+* Dispatch the DevSecOps culture
+* Improve the CI/CD: Gitlab-ci, Jenkins, Sonar, Nexus, Harbor, DependencyTrack
+
+Coding Architect (until 11/2022):
+
+* Technical specification of new products and services
+* Develop internal base libraries and core services
+* Animate Java community
+* Participate of security audit and certification
+
+QA Manager (until 03/2022):
+
+* Recruit a QA Team
+* Setting up RobotFramework test environment
+* Define performance and load testing strategy
+
+Technologies: Java/Kotlin/Springboot, Keycloak, RabbitMQ, MongoDB, MariaDB, Kubernetes, Istio, Ansible, Molecule, GitLab-ci, Jenkins, RobotFramework, Locust
+
+=== Digital identity project manager
+
+[.subheading]#ARIADNEXT, Rennes, France#
+[.range]#July 2017 - January 2019#
+
+The project is an identity provider for FranceConnect.
+It allows users to create their identity from their smartphone, with Mobile Connect as a means of authentication and IDCHECK.IO as a means of verification of identity.
+
+Technologies: Java/Springboot, Keycloak, Android/Kotlin, IOS/Swift, RabbitMQ, MongoDB, MySQL
+
+=== Tech leader, Devops and IT manage
+
+[.subheading]#BlueKanGo, Rennes, France#
+[.range]#January 2009 - July 2017#
+
+Development of a SaaS application about HSQE:
+
+* HTML5/JS/IndexedDB offline application on smartphone and tablet
+* BI module with a Java/Birt backend and a PHP/ExtJS frontend
+* Authentication integration: SSO, JWT, OTP, LDAP
+* Java/Spring/GWT application for the road equipment management
+* Development of internal tools in AngularJS/PHP
+
+IT manager:
+
+* Servers virtualization
+* Hosting clients SaaS applications
+* Setting up a monitoring system
+* Internal information system management
+* Implementation of the CI/CD
+
+Technologies: Java/Springboot, JS, PHP, MySQL, Jenkins, Zabbix, Birt, Selenium, Jmeter
+
+=== Product manager
+
+[.subheading]#SNR, Lille, France#
+[.range]#2007 - 2008#
+
+Development of regional platform hosting shared medical records:
+
+* Team technical leader and coaching offshore development
+* Writing technical and functional specifications
+* Technical architect
+* Quality control
+* Technical support for pre-sales team
+
+Technologies: Java, Jonas, JSF, Oracle
+
+=== Java tech leader
+
+[.subheading]#Silicomp-AQL (OBS), Rennes, France#
+[.range]#2005 - 2006#
+
+Subcontractor for SNR:
+
+* Technical leader and Java developer
+* Writing technical and functional specifications
+* Quality control
+
+Technologies: Java, Jonas, JSF, Oracle
+
+=== Java developer
+
+[.subheading]#Osys, Laval, France#
+[.range]#2003 - 2005#
+
+Development of an intranet software for industrial production monitoring:
+
+* Specification about technical solution and Java development
+* Deployment of specific application for the clients
+* Clients and coworkers training
+
+Technologies: Java, Tomcat, Ms SQL Server
