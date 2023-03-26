@@ -85,8 +85,7 @@ Head of cross-functional teams: Architecture, Devops and QA (about 15p).
 
 Head of Devops:
 
-* Recruit a Devops Team
-* Build an on-premise Kubernetes platform
+* Build a platform as code, based on kubernetes
 * Automatize deployments with Ansible/Molecule
 * Setting up the on call duty
 * Dispatch the DevSecOps culture

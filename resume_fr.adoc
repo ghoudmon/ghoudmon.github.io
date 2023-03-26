@@ -83,10 +83,9 @@ Responsable de 3 équipes transverses: Architecture, Devops et QA (environ 15 pe
 
 Devops team manager:
 
-* Recrutement d'une équipe devops
-* Build d'une plateforme Kubernetes on premise
+* Build d'une plateforme as code basée Kubernetes
 * Automatisation des deploiements with Ansible/Molecule
-* Mise ne place des atreintes
+* Maintien en condition opérationelle des services
 * Diffusion de la culture DevSecOps
 * Amélioration de la chaîne CI/CD: Gitlab-ci, Jenkins, Sonar, Nexus, Harbor, DependencyTrack
 
@@ -133,7 +132,7 @@ IT manager:
 * Virtualisation des serveurs
 * Hébergement d'application clientes SaaS
 * Mise au point de la solution de monitoring
-* Gestion du système d'information interne
+* Gestion du système d'information interne sur offre cloud OVH
 * Mise au pont de la chaîne CI/CD
 
 Technologies: Java/Springboot, JS, PHP, MySQL, Jenkins, Zabbix, Birt, Selenium, Jmeter
